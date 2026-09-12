@@ -13147,7 +13147,7 @@ const wh = [["path", {
     key: "5ykzw1"
 }]]
   , Kh = Fl("volume-x", wh)
-  , Jh = "./assets/13_-_Ady_Elly_Fe_Baly.mp3"
+  , Jh = "_Ady_Elly_Fe_Baly.mp3"
   , $h = ({autoStart: g=!1}) => {
     const [T,A] = vl.useState(!1)
       , [o,q] = vl.useState(!1)
@@ -13587,7 +13587,7 @@ const wh = [["path", {
         })]
     })
 }
-  , Ph = "./assets/couple_childhood_photo_1786109308541-C5SXRo78.jpeg"
+  , Ph = "couple_childhood_photo_1786109308541-C5SXRo78.jpeg"
   , l1 = () => {
     const [g,T] = vl.useState(!1)
       , {lang: A, t: o} = Le();
