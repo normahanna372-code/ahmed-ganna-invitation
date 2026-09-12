@@ -13587,7 +13587,7 @@ const wh = [["path", {
         })]
     })
 }
-  , Ph = "./assets/couple_childhood_photo_1786109308541-C5SXRo78.jpeg"
+  , Ph = "couple_childhood_photo_1786109308541-C5SXRo78.jpeg"
   , l1 = () => {
     const [g,T] = vl.useState(!1)
       , {lang: A, t: o} = Le();
