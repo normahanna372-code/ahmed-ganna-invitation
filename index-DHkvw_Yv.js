@@ -13148,7 +13148,7 @@ const wh = [["path", {
 }]]
   , Kh = Fl("volume-x", wh)
   , Jh = "13_-_Ady_Elly_Fe_Baly.mp3"
-  , $h = ({autoStart: g=!1}) => {
+  , $h = ({autoStart: g=!0}) => {
     const [T,A] = vl.useState(!1)
       , [o,q] = vl.useState(!1)
       , U = vl.useRef(null);
