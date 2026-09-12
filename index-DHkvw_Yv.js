@@ -13340,16 +13340,21 @@ const wh = [["path", {
       , K = () => {
         U("language")
     }
-      , Q = gl => {
-        ol(gl),
-        A(gl),
-        E(!0),
-        g(),
-        setTimeout( () => {
-            D(!0)
-        }
-        , 1e3)
+      ,Q = gl => {
+    ol(gl),
+    A(gl),
+    E(!0),
+    g();
+
+    const audio = document.querySelector("audio");
+    if (audio) {
+        audio.play().catch(() => {});
     }
+
+    setTimeout( () => {
+        D(!0)
+    }, 1e3)
+}
     ;
     return R ? null : s.jsxs("div", {
         className: `fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#3d2b1f]/85 backdrop-blur-md transition-all duration-1000 ${j ? "opacity-0 pointer-events-none scale-105" : "opacity-100"}`,
